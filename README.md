@@ -1,1 +1,2 @@
 # Towards-Building-a-Global-Robust-Model-for-Heart-Disease-Prediction
+Heart disease prediction is crucial, often relying on centralized data training. To enhance robustness, we employed simulated federated learning with data from multiple regions. Using a combined dataset from various sources, we created four virtual workers representing different hospitals. The final models achieved 84.87% accuracy (IID) and 86.55% (non-IID), with evaluation including AUC, sensitivity, and specificity.
